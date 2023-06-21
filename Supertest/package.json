@@ -8,12 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API.git"
+    "url": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API/tree/main/Supertest"
   },
   "author": "Rodrigo Tozatti",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API/issues"
   },
-  "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API#readme"
+  "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
 }
