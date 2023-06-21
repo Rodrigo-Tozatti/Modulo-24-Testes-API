@@ -1,0 +1,19 @@
+{
+  "name": "api-test-supertest",
+  "version": "1.0.0",
+  "description": "Teste de API com Supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API.git"
+  },
+  "author": "Rodrigo Tozatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API#readme"
+}
