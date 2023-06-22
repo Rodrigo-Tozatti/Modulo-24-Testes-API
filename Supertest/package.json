@@ -4,7 +4,8 @@
   "description": "Teste de API com Supertest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "jest": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/Rodrigo-Tozatti/Modulo-24-Testes-API#readme",
   "dependencies": {
     "@types/jest": "^29.5.2",
+    "dotenv": "^16.3.1",
     "jest": "^29.5.0",
+    "jest-html-reporters": "^3.1.4",
     "supertest": "^6.3.3"
   }
 }

@@ -1,18 +1,18 @@
 const req = require('supertest');
+const API_URL = process.env.API_URL
 
-describle('User login', () => {
+describe('Login de usuário', () => {
     it('Deve acessar o token', () => {
-        Request('http://localhost:3000/api')
+        req(API_URL)
             .post('/login')
             .send({
                 "username": "admin",
-                "passworld": "aedmin"
+                "password": "admin"
             })
             .set('Accept', 'application/json')
             .then(reponse => {
-
+                expect(reponse.statusCode).toEqual(201)
+                expect(reponse.body.accessToken).not.toBe(undefined)
             })
-
     });
-
-})
+});
